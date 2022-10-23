@@ -366,7 +366,8 @@ while UserWickets < ComputerWickets:
                 print("User Score : " , UserRuns , "Runs" , UserWickets , "Wickets")
 if UserRuns > ComputerRuns:
     print("User wins by " , ComputerWickets - UserWickets , "Wickets")
+    break
 elif ComputerRuns > UserRuns:
     print("Computer wins by " , ComputerRuns - UserRuns , " Runs " )
-if UserRuns > 0 and ComputerRuns>0:
     break
+
